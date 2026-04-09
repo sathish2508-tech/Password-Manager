@@ -146,8 +146,10 @@ class App extends Component {
         {/* BOTTOM SECTION */}
         <div className="bottom-container">
           <div className="header">
-            <h1>Your Passwords</h1>
-            <p className="count">{filteredList.length}</p>
+            <div className="password-count">
+              <h1>Your Passwords</h1>
+              <p className="count">{filteredList.length}</p>
+            </div>
 
             <div className="search-box">
               <img
